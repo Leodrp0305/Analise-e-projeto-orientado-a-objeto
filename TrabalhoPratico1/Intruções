@@ -1,0 +1,34 @@
+Curso: Engenharia de Software
+Disciplina: Análise e Projeto Orientado a Objetos
+Professor: José Carlos Domingues Flores.
+Título do trabalho: Prática de desenvolvimento com Java.
+
+Objetivo:
+  Este trabalho tem como objetivo levar os alunos a exercitarem os conceitos fundamentais sobre o
+  desenvolvimento na Linguagem Java abordando os conceitos de operadores aritméticos,
+  operadores de atribuição, operadores de comparação ou relacionais, Operadores Lógicos,
+  estruturas condicionais, estruturas de repetição, classes, interfaces, entre outros conceitos.
+  Descrição do Trabalho:
+  Os alunos deverão desenvolver os algoritmos para solucionar o enunciado dos exercícios.
+  Deverá ser criado um projeto preferencialmente no Eclipse contendo todos os códigos em
+  arquivos separados.
+Requisitos técnicos obrigatórios:
+   Organização dos códigos em arquivo separado (e.g.,exercicio01.java, exercicio02.java,
+  etc).
+   Cada arquivo-fonte deverá ter um cabeçalho em formato de comentário conforme
+  demonstrado abaixo.
+   Cada arquivo deverá ter uma breve explicação do código em formato de comentário de
+  como o código resolve o problema proposto no exercício:
+    /******************************************************************************
+    Curso: Engenharia de Software
+    Disciplina: Análise e Projeto Orienta a Objetos
+    Professor: José Carlos Flores
+    Turma: ESOFT3A
+    Componentes:
+    25185655-2 - Leonardo Kenji Tanida Soares
+    24001310-2 - Jonathan de Lima Bellato
+    25127107-2 - Tiago Joslin Ferreira Mendes
+    25011023-2 - Lucas Coelho Suero
+    Data: 05 de Março de 2026
+    Descritivo: Escreva um programa que calcule a soma de dois números
+    *******************************************************************************/
