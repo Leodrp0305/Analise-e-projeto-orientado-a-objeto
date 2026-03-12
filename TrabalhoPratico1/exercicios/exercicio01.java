@@ -9,7 +9,7 @@ package exercicios;
  24001310-2 - Jonathan de Lima Bellato
  25127107-2 - Tiago Joslin Ferreira Mendes
  25011023-2 - Lucas Coelho Suero
- Data: 05 de Março de 2026
+ Data: 12 de Março de 2026
  Descritivo: Escreva um programa que calcule a soma de dois números
 *******************************************************************************/
 public class exercicio01 {
