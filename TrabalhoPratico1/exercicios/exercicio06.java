@@ -7,13 +7,12 @@ Professor: José Carlos Flores
 Turma: ESOFT3A
 Componentes:
 25185655-2 - Leonardo Kenji Tanida Soares
-24001310-2 - Jonathan de Lima Bellato
 25127107-2 - Tiago Joslin Ferreira Mendes
 25011023-2 - Lucas Coelho Suero
 26008977-2 - Pedro Augusto Cordeiro Holanda
 Data: 12 de Março de 2026
-Descritivo: Escreva um programa que leia 5 números do usuário e os armazene em um array, depois exiba todos os
-números.
+Descritivo: Escreva um programa que use herança para criar uma classe Aluno que herda de Pessoa e adiciona um
+atributo matricula.
 *******************************************************************************/
 public class exercicio06 {
 	
