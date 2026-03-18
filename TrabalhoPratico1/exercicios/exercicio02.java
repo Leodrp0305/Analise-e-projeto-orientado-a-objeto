@@ -12,7 +12,7 @@ Componentes:
 Data: 12 de Março de 2026
 Descritivo: Escreva um programa que leia um número inteiro e informe se ele é par ou ímpar.
 *******************************************************************************/
-public class Exercicio02{
+public class exercicio02{
 	public static void main(String[] args) {
 		int var1 = 7;
 		int var2 = var1%2;
