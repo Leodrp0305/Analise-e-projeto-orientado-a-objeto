@@ -50,4 +50,11 @@ public class exercicio15 {
 		
 		sc.close();
 	}
+/******************************************************************************
+- Nesse codigo, eu pensei em inicializar tudo com o scanner, por ser necessario, então eu criei o sc para receber os valores que seriam necessários
+- em seguida, requisitei as variaveis como doubles, para mais precisão
+- após receber os dados, eu calculei o imc
+- por fim, utilizei de um sistema de if, else if e else, para categorizar o imc e a classificação
+- finalizando o codigo com a boa pratica de fechar o scanner para desocupar memoria
+*******************************************************************************/
 }
