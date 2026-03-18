@@ -27,4 +27,9 @@ public class exercicio14 {
 		}
 		sc.close();
 	}
+	/******************************************************************************
+- aqui é bem simples, inicializei o scanner sc, e uma variavel contadora i
+- em seguida, requisitei um inteiro para ser o número desejado da tabuada
+- depois um for imprime um sysout com um template para imprimir de uma forma mais bonita a tabuada usando a variavel contadora para poder calcular de 1 a 10
+*******************************************************************************/
 }
