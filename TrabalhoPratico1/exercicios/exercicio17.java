@@ -12,8 +12,8 @@ Componentes:
 25011023-2 - Lucas Coelho Suero
 26008977-2 - Pedro Augusto Cordeiro Holanda
 Data: 12 de Março de 2026
-Descritivo: Escreva um programa que leia 5 números do usuário e os armazene em um array, depois exiba todos os
-números.
+Descritivo: Desenvolva um jogo onde o computador sorteie um número entre 1 e 100, e o usuário tente adivinhá-lo.
+O programa deve dar dicas ("maior" ou "menor") até o acerto.
 *******************************************************************************/
 public class exercicio17 {
 	
