@@ -17,7 +17,7 @@ public class exercicio03{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Escrevas suas notas");
-		int n1 = sc.nextInt(); /*Guarda a nota*/
+		int n1 = sc.nextInt(); 									/*Guarda a nota*/
 		int n2 = sc.nextInt();
 		int n3= sc.nextInt();
 		
