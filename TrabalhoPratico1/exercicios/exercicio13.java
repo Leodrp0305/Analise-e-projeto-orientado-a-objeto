@@ -32,4 +32,10 @@ public class exercicio13 {
 	        System.out.println("O carro está freando");
 	    }
 	}
+	/******************************************************************************
+- Essa parte foi mais dificil por que eu não estava familiarizado com interaces, então tive que pesquisar para entender
+- Ápos a pesquisa, eu tive que criar a interface Veiculo com o metodo acelerar e freiar
+- Depois eu criei a classe carro, implementando a interace veiculo, dentro da classe, eu sobre-escrevi o retorno de acelerar e frear
+- com o @Override, era possivel ter um retorno no terminal agora
+*******************************************************************************/
 }
