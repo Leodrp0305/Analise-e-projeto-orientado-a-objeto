@@ -11,8 +11,8 @@ Componentes:
 25011023-2 - Lucas Coelho Suero
 26008977-2 - Pedro Augusto Cordeiro Holanda
 Data: 12 de Março de 2026
-Descritivo: Escreva um programa que use herança para criar uma classe Aluno que herda de Pessoa e adiciona um
-atributo matricula.
+Descritivo: Escreva um programa que leia 5 números do usuário e os armazene em um array, depois exiba todos os
+números.
 *******************************************************************************/
 public class exercicio06 {
 	
