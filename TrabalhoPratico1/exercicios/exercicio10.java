@@ -45,4 +45,14 @@ public class exercicio10 {
         scanner.close(); // Fecha o Scanner
     }
 }
+/*
+comecei inicializando o scanner para ler os dados digitados pelo usuário
+depois criei um array com tamanho de 5 posições para armazenar os números
+depois utilizei um for para pedir que o usuário digite os 5 números, armazenando cada um no array
+Depois de preencher o array, utilizei dois loops for para realizar a ordenalos (Bubble Sort)
+Dentro desses loops, comparei os elementos do array e, caso o atual fosse maior que o próximo, realizei a troca de posição
+até que todos os números estejam em ordem crescente
+Após a ordenação, imprimi uma mensagem informando o resultado
+e utilizei um for para percorrer o array e mostrar os números já ordenados
+*/
 
