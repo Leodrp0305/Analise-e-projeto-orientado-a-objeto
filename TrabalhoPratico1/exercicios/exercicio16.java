@@ -75,5 +75,14 @@ public class exercicio16 {
 		System.out.println("Senha registrada com sucesso!");
 
 	}
-
+/******************************************************************************
+- Incializando variaveis booleanas como false
+- depois requisitamos uma string por meio de um scanner
+- agora que vinha parte dificil, né, eu utilizei de variaveis booleanas para poder reforçar as instruções do codigo
+- caso a senha não se adequasse a alguma das condições, o if resposavel por tornar a booleana responsavel em true não seria ativado
+- em seguida, após todos os testes, outros 4 ifs seriam executados, imprimindo as mensagens de erro correspondentes a senha
+- caso tudo tivesse correto, a senha seria "registrada"
+-dentro do codigo eu tive que pesquisar como poderia encontrar a lengh, por tanto usei o comando .lengh, assim como usei o UpperCase,LowerCase e Digits
+-todos correram dentro de um for para analizar caractere por caractere dentro da senha
+*******************************************************************************/
 }
