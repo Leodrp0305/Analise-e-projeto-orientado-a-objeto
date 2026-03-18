@@ -15,7 +15,7 @@ Descritivo: Escreva um programa que leia um número inteiro e informe se ele é 
 public class exercicio02{
 	public static void main(String[] args) {
 		int var1 = 7;
-		int var2 = var1%2; /*var2 igual o resto entre var1 e 2*/
+		int var2 = var1%2; 									/*var2 igual o resto entre var1 e 2*/
 		
 		if(var2 == 1) {
 			System.out.println("O número é ímpar");
