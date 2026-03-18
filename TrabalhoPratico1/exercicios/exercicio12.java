@@ -51,5 +51,13 @@ public class exercicio12 {
         a1.exibirDadosAluno(); // mostra todos os dados
     }
 }
-
-
+/*
+Comecei definindo a classe Pessoa onde criei dois atributos: nome e idade
+depois criei um método para exibir esses dados na tela, e criei a classe Aluno que herda de Pessoa,
+ela reaproveita os atributos e métodos já existentes
+naa classe Aluno, coloquei um novo atributo chamado matricula, que é exclusivo dela
+tambem fiz um método que primeiro chama o método da classe Pessoa para mostrar nome e idade, e depois exibe a matrícula
+na classe principal  comecei o main, onde o programa começa
+depois, criei um objeto da classe Aluno e atribuí valores aos atributos herdados (nome e idade) e ao atributo próprio (matricula)
+e chamei o método para exibir todos os dados na tela
+*/
