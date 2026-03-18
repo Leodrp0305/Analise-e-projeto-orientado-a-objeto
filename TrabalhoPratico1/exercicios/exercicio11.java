@@ -39,5 +39,11 @@ public class exercicio11 {
         p1.exibirDados(); // Chama o método para mostrar os dados
     }
 }
-    
 
+/*
+comecei definindo a classe Pessoa, onde criei os atributos nome e idade
+depois fiz um método chamado exibirDados, que serve para mostrar essas informações na tela,
+na classe principal, iniciei o método main, onde o programa começa a executar
+Dentro do main, criei um objeto da classe Pessoa e atribuí valores aos atributos 
+nome e idade desse objeto e depois chamei o método exibirDados para exibir as informações da pessoa na tela
+*/
