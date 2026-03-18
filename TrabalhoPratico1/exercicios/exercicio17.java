@@ -1,9 +1,6 @@
 package exercicios;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.Random;
-import java.util.Random;
-import java.util.Scanner;
 /******************************************************************************
 Curso: Engenharia de Software
 Disciplina: Análise e Projeto Orienta a Objetos
@@ -38,5 +35,11 @@ public class exercicio17 {
 		}
 		System.out.println("Parabéns! O número era " + segredo); //impressão da mensagem de vitória
 	}
-
+/******************************************************************************
+Comecei inicializando o scanner e o randomizador
+Após isso, eu gerei o número secreto, que seria o alvo do jogo
+Dentro de um while true, que serveria como um do while, eu requisitei um numero para o usuario
+apos o inteiro ser inserido, ele é tratado por if, else if e else os quais dão as dicas ou executam o break
+após todo o while, temos a mensagem de vitoria impressa pelo sysout
+*******************************************************************************/
 }
