@@ -21,19 +21,19 @@ public class exercicio04{
 		System.out.println("1 - Graus Celsius");
 		System.out.println("2 - Fahrenheit");
 		System.out.println("Opção: ");
-		int opcao = sc.nextInt();
-		if(opcao == 1) {
+		int opcao = sc.nextInt(); 												/*Recebe a opção*/
+		if(opcao == 1) { 														/*Se for Celsius*/
 			System.out.println("Digite a temperatura em Celsius: ");
 			double c = sc.nextDouble();
 			double f = (c * 9/5) + 32;
 			System.out.println("A temperatura em Fahrenheit é " + f + "°F");
-		}else if (opcao == 2) {
+		}else if (opcao == 2) { 												/*Se for Fahrenheit*/
 			System.out.println("Digite a temperatura em Fahrenheit: ");
 			double f = sc.nextDouble();
 			double c = (f-32) * 5/9;
 			System.out.println("A temperatura em Celsius é " + c + "°C");
 		} else {
-			System.out.println("Opção inválida");
+			System.out.println("Opção inválida"); 								/*Pro besta que vai colocar 3*/
 		}
 		sc.close();
 	}
