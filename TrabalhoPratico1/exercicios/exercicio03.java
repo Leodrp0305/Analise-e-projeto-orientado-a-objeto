@@ -13,7 +13,7 @@ Componentes:
 Data: 12 de Março de 2026
 Descritivo: Escreva um programa que calcule a média de três notas fornecidas pelo usuário.
 *******************************************************************************/
-public class Exercicio03{
+public class exercicio03{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Escrevas suas notas");
