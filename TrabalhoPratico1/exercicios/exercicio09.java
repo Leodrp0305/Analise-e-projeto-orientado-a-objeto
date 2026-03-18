@@ -66,3 +66,13 @@ public class exercicio09 {// declara a classe principal
         }
     }
 }
+/*
+primeiro usei o scanner para ler os dados do usuário
+depis declarei duas variáveis para os números e uma para o operador, depois
+pedi para o usuário digitar o primeiro número, o operador e o segundo número
+apos receber os valores usei um switch para verificar qual operação foi escolhida
+cada caso realiza uma operação diferente (soma, subtração, multiplicação ou divisão)
+na divisão, fiz uma verificação para evitar divisão por zero
+se o operador digitado não for válido, o programa mostra uma mensagem de erro
+tudo estando certo o resultado da operação é exibido na tela
+*/
