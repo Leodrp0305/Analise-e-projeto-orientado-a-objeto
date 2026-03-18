@@ -29,5 +29,10 @@ public class exercicio18 {
 	System.out.println("Háviam "+totalPalavras+" palavras na frase digitada");//Impressão de resultado
 	
 	}
+	/******************************************************************************
+- Meu primeiro passo no codigo foi pesquisar como que eu poderia fazer para contar a quantia de palavras em uma frase, então eu encontrei o split()
+- Por meio do trim, eu separei dentro de um array de strings o contagem, tudo que estava escrito, entre os espaços, então se havia um espaço, cortava a palavra e separava no array
+- Usando length, eu consegui descobrir a quantia de itens que existia dentro do array, ou sejam a quantia de palavras
+*******************************************************************************/
 
 }
