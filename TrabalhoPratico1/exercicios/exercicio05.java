@@ -15,11 +15,11 @@ Descritivo: Escreva um programa que exiba apenas os números pares de 1 a 20.
 public class exercicio05{
 	public static void main(String[] args) {
 	int contador = 0;
-	while(contador <= 20) {
-		if(contador%2 == 0) {
-			System.out.println(" " + contador);
+	while(contador <= 20) {							/*Enquanto o contador foi menor ou igual a 20*/
+		if(contador%2 == 0) {						/*Se o resto da divisão entre o contador e 2 for 0*/
+			System.out.println(" " + contador);		/*Imprima o contador*/
 		}
-			contador++;
+			contador++;								/*Some 1 ao contador*/
 		}
 	}
 }
