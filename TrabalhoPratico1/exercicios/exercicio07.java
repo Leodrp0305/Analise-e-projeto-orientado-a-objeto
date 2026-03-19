@@ -4,7 +4,6 @@ turma - ESOFT3A
 Professor - José Carlos Flores
 Componentes:
   251856552 - Leonardo Kenji Tanida Soares
-  240013102 - Jonathan de Lima Bellato
   251271072 - Tiago Joslin Ferreira Mendes
   250110232 - Lucas Coelho Suero
   260089772 - Pedro Augusto Cordeiro Holanda
