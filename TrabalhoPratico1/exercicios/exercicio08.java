@@ -8,45 +8,37 @@ Componentes:
   251271072 - Tiago Joslin Ferreira Mendes
   250110232 - Lucas Coelho Suero
 Data - 18/03/2026
-Descritivo -  O programa identifica qual é a fruta mais pesada dentro de um lote
-informado pelo usuário, usando lógica de comparação em array.
+Descritivo - O programa lê o peso de 5 frutas, armazena em um array e calcula 
+a média de peso do lote no final.
 *******************************************************************************/
 
 import java.util.Scanner;
 
-public class exercicio07 {
+public class exercicio08 {
     public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
+        
+        // Array fixo para 5 frutas conforme o enunciado
+        double[] remessa = new double[5];
+        double totalKg = 0;
 
-        System.out.print("Quantas frutas chegaram no lote? ");
-        int qtd = leitor.nextInt();
+        System.out.println(">>> SISTEMA DE QUALIDADE: CALCULO DE MEDIA <<<");
 
-        double[] estoque = new double[qtd];
-
-        // Lendo os pesos das frutas
-        for (int i = 0; i < qtd; i++) {
-            System.out.print("Peso da fruta " + (i + 1) + " (gramas): ");
-            estoque[i] = leitor.nextDouble();
+        // Loop para ler e já ir somando tudo no totalKg
+        for (int i = 0; i < remessa.length; i++) {
+            System.out.print("Peso da fruta " + (i + 1) + " (kg): ");
+            remessa[i] = teclado.nextDouble();
+            totalKg += remessa[i]; 
         }
 
-        // Chama a função que descobre o maior peso
-        double maiorPeso = acharOMaior(estoque);
+        // Faz a conta da média
+        double media = totalKg / remessa.length;
 
-        System.out.println("\n--- RELATÓRIO DE PESAGEM ---");
-        System.out.println("A fruta recordista do lote tem: " + maiorPeso + "g");
+        System.out.println("\n----------------------------------");
+        System.out.printf("Soma Total do Lote: %.2f kg\n", totalKg);
+        System.out.printf("Media de Peso: %.2f kg\n", media);
+        System.out.println("----------------------------------");
 
-        leitor.close();
-    }
-
-    // Método para encontrar o maior valor (Lógica de Negócio)
-    public static double acharOMaior(double[] lista) {
-        double campeao = lista[0]; // Começamos achando que a primeira é a maior
-
-        for (double pesoAtual : lista) {
-            if (pesoAtual > campeao) {
-                campeao = pesoAtual; // Se achar uma maior, ela assume o trono
-            }
-        }
-        return campeao;
+        teclado.close();
     }
 }
