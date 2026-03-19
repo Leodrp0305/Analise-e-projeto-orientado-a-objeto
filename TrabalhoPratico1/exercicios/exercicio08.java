@@ -42,3 +42,9 @@ public class exercicio08 {
         teclado.close();
     }
 }
+
+/*
+- Meu primeiro passo no código foi pesquisar como eu poderia acumular valores de forma automática enquanto o usuário digitava, então eu encontrei o operador de atribuição aditiva +=.
+- Por meio de um laço for, eu criei um "baldinho" chamado totalKg. Cada vez que o peso de uma fruta era lido, o += jogava esse valor para dentro do total, somando tudo em uma única variável de forma eficiente.
+- Usando o length, eu consegui dividir essa soma total pela quantidade exata de itens no array. Assim, cheguei na média aritmética do lote sem precisar travar o código em um número fixo.
+*/
