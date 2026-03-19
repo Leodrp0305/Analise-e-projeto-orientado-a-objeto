@@ -21,4 +21,8 @@ public class exercicio01 {
 	
 	System.out.println(var1+var2);
 	}
+/*
+- Incializei variaveis
+- imprimi a soma das variaveis
+*/
 }
