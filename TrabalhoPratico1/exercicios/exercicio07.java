@@ -10,8 +10,7 @@ Componentes:
 Data - 18/03/2026
 Descritivo -  O programa identifica qual é a fruta mais pesada dentro de um lote
 informado pelo usuário, usando lógica de comparação em array.
-*******************************************************************************/
-
+******************************************************************************/
 import java.util.Scanner;
 
 public class exercicio07 {
@@ -50,3 +49,8 @@ public class exercicio07 {
         return campeao;
     }
 }
+/******************************************************************************
+- Meu primeiro passo no código foi pesquisar como eu poderia comparar vários valores dentro de uma lista para achar o maior, então eu encontrei o conceito de variável de referência.
+- Por meio de um método chamado acharOMaior, eu defini que a primeira fruta do array seria a minha "campeã" inicial, e usei um laço for para percorrer o restante do estoque.
+- Usando um if, o programa comparava cada posição do array: se a fruta atual fosse maior que a campeã, ela assumia o trono. No fim, o que sobrava na variável era o peso da maior fruta de todas.
+******************************************************************************/
